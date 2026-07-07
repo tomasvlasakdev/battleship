@@ -1,0 +1,41 @@
+body {
+    font-size: 16px;
+    font-style: normal;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+    gap: 100px;
+
+}
+
+table {
+    width: 350px;
+}
+
+td {
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+    margin: 0;
+}
+
+.hit {
+    border: 1px solid red;
+}
+
+.missed {
+    border: 1px solid blue;
+}
+
+#randomBtn{
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 4px;
+}
